@@ -52,7 +52,7 @@ WALLPAPER_COUNT=30
 >
 > EMAIL_SUBJECT=：邮件标题
 >
-> RECURRENCE_RULE：[定时任务规则](#定时任务规则)
+> RECURRENCE_RULE：[定时任务规则](#如何配置定时任务规则)
 >
 > NSFW：绅士模式，`on`(开启) || `off`(关闭)，随机爬取的过程中，概率爬到你可能希望看到的图片。
 >
