@@ -1,0 +1,31 @@
+{
+  "name": "wallpaper-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./src/app/start-crawler.js",
+    "start": "pm2 start ./ecosystem.config.js --watch",
+    "stop": "pm2 stop ./ecosystem.config.js",
+    "log": "pm2 log crawler",
+    "restart": "pm2 delete crawler && npm run serve",
+    "status": "pm2 status"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.2",
+    "axios": "^0.24.0",
+    "bagpipe": "^0.3.5",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "log4js": "^6.3.0",
+    "node-schedule": "^2.1.0",
+    "nodemailer": "^6.7.2",
+    "pm2": "^5.1.2",
+    "qs": "^6.10.1",
+    "random-string": "^0.2.0",
+    "request": "^2.88.2"
+  }
+}
